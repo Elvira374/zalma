@@ -37,6 +37,11 @@ h2 {
     font-size: 20rem;
     -webkit-animation: line 10s infinite;
             animation: line 10s infinite;
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;
+    user-select: none;    
+    pointer-events: none;
 }
 h4 {
     font-size: 1.5rem;
